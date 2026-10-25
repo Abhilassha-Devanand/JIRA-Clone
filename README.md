@@ -39,3 +39,5 @@ Backend runs at `http://localhost:5000` (Health Check: `http://localhost:5000/ap
 npm run dev:frontend
 ```
 Frontend runs at `http://localhost:5173` with reverse proxy to backend.
+=======
+
