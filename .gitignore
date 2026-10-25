@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local MongoDB storage
+backend/data/db/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
